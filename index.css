@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(225, 228, 231);
+}
+
+main{
+    padding: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}  
+
+.sedans {
+  background-color: rgb(210, 136, 0);
+  height: 400px;
+  border-radius: 5px;
+}
+
+.sedans h1
+{
+  font-weight: 500; 
+  color: aliceblue;
+  text-align: left;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.sedans p
+{
+  font-size: small;  
+  font-weight: 200; 
+  color: aliceblue;
+  text-align: left;
+  margin-left: 30px;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.sedans-btn{
+    width: 100px;
+    height: 30px;
+    color: rgb(210, 136, 0);
+}
+
+
+/*SUVS CSS*/
+.suvs {
+    background-color: rgb(9, 117, 117);
+    height: 400px;
+    border-radius: 2px;
+  }
+  
+  .suvs h1
+  {
+    font-weight: 500; 
+    color: aliceblue;
+    text-align: left;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  
+  .suvs p
+  {
+    font-size: small;  
+    font-weight: 200; 
+    color: aliceblue;
+    text-align: left;
+    margin-left: 30px;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .suvs-btn{
+      width: 100px;
+      height: 30px;
+      color: rgb(9, 117, 117);
+  }
+
+
+  /*LUXURY'S CSS*/
+  .luxury {
+    background-color: rgb(0, 51, 51);
+    height: 400px;
+    border-radius: 5px;
+  }
+  
+  .luxury h1
+  {
+    font-weight: 500; 
+    color: aliceblue;
+    text-align: left;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  
+  .luxury p
+  {
+    font-size: small;  
+    font-weight: 200; 
+    color: aliceblue;
+    text-align: left;
+    margin-left: 30px;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .luxury-btn{
+      width: 100px;
+      height: 30px;
+      color: rgb(0, 51, 51);
+  }
+
+  img{
+    text-align: left;
+    margin-left: 30px;
+    padding: 10px;
+    padding-top: 50px;
+  }
+
+  button{
+    text-align: center;
+    margin-left: 30px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
